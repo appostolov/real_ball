@@ -11,16 +11,13 @@ var vel = 1;
 var vel_1 = 20;
 
 var g = setInterval(function(){
-	
-var mx=event.clientX;
-var my=event.clientY;
 
 c.fillStyle = "white";
 c.fillRect(0,0,c1.width,c1.height);
 
 c.fillStyle = "#003";
 c.beginPath();
-c.arc(mx,my,r,0,2*Math.PI);
+c.arc(x,y,r,0,2*Math.PI);
 c.fill();
 
 vel += acc;
