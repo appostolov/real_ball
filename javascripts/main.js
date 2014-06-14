@@ -11,9 +11,6 @@ var vel = 1;
 var vel_1 = 20;
 
 var g = setInterval(function(){
-	
-	var mx=event.clientX
-  	var my=event.clientY
 
 c.fillStyle = "white";
 c.fillRect(0,0,c1.width,c1.height);
